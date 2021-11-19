@@ -21,6 +21,7 @@ document.onmousedown = rtclickcheck;
 document.onkeydown = function (e) {
     if (e.ctrlKey &&
         (e.keyCode === 85)) {
+        alert("Desabilitado!")
         return false;
     }
 };
